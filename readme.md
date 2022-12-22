@@ -11,4 +11,4 @@
 - The project took almost 5 hrs to complete.
 
 ## Live link
-[NETLIFY]()
+[NETLIFY](https://cssprojetct-10.netlify.app)

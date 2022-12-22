@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700;800;900&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Inter Tight", sans-serif;
+}
+
+.bg {
+height: 100vh;
+background-image: url(../img/retro-living-room-interior-design.jpg);
+background-size: 100vw 100vh;
+background-repeat: no-repeat;
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo{
+    margin-left: 25px;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .items{
+    display: flex;
+    margin-right: 18px;
+  }
+
+  .item{
+        margin-top: 35px;
+        margin-right: 35px;
+        cursor: pointer;
+  }
+
+  ul li{
+    list-style-type: none;
+  }
+
+  .content{
+    margin-top: 20px;
+    position: relative;
+    margin-left: 30px;
+    margin-right: 20px;
+  }
+
+  .fa-phone-volume {
+     font-size: 18px;
+     position: absolute;
+     top: 10px;
+     right: 135px;
+  }
+
+  .line{
+    position: absolute;
+    top: 83px;
+    background-color: #fff;
+    height: 1px;
+    width: 620px;
+  }
+
+  /* STARTING CONTAINER */
+  .header-text{
+    margin-left: 25px;
+    margin-top: 100px;
+  }
+
+  .header-text .text{
+    font-size: 80px;
+  }
+
+  .btn{
+    background-color: transparent;
+    border: 2px solid white;
+    width: 160px;
+    height: 48px;
+    border-radius: 22px;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 55px;
+    cursor: pointer;
+
+
+  }
+
+  .btn:hover{
+    box-shadow:0 0  10px white;
+  }
+
+
+  .info1{
+    position: absolute;
+    top: 160px;
+    right: 125px;
+  }
+  .fa-puzzle-piece {
+    background-color: white;
+    color: rgb(18, 19, 68);
+    border-radius: 12px;
+    height: 27px;
+    width: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 8px;
+   font-size: 18px;
+  }
+
+  .box{
+    background-color: rgb(41, 41, 70);
+    width: 240px;
+    height: 110px;
+    padding:  15px 12px;
+  }
+
+  .box p{
+    font-weight: 500;
+  }
+
+
+
+  .svg{
+    position: absolute;
+    left: 170px;
+  }
+  .svg-line{
+        background-color: #fff;
+         color: white;
+         height: 40px;
+         width: 2px;
+  }
+
+
+  
+  .svg-cricle{
+    position: absolute;
+    top: 38px;
+    left: -6px;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 50px;
+  }
+
+  .info2{
+    position: absolute;
+    right:280px;
+    bottom: 20px;
+  }
+
+  .box1{  
+    background-color: rgb(41, 41, 70);
+    width: 220px;
+    height: 130px;
+    padding:  15px 15px 17px 15px;
+  }
+
+  .fa-lightbulb {
+    background-color: white;
+    color: rgb(18, 19, 68);
+    border-radius: 12px;
+    height: 27px;
+    width: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 8px;
+   font-size: 18px;
+  }
+
+  .svg1{
+    position: absolute;
+    left: 220px;
+    bottom: 85px;
+  }
+  
+  .svg-line1{
+        background-color: #fff;
+         color: white;
+         height: 2px;
+         width: 55px;
+  }
+
+  .svg-cricle1{
+    position: absolute;
+    bottom: -5px;
+    left: 55px;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 50px;
+  }
+
